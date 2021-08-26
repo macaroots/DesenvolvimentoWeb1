@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paivatech Loja Virtual</title>
+    <link rel="shortcut icon" href="1.jpg" type="image/x-icon">
+</head>
+<body>
+    <div align=center>
+        <img src="1.jpg" alt="Logo" width=250 height=250></img>
+    </div>
+    <h1>Loja Virtual</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="cell.html">Celulares</a></li>
+            <li>Administração</li>
+            <ul>
+                <li><a href="user.html">Usuarios</a></li>
+                <li><a href="adm.html">Administrador</a></li>
+            </ul>
+            <li>Controle</li>
+            <ul>
+                <li><a href="controle.html">Controle</a></li>
+            </ul>
+        </ul>
+    </nav>
+<main>
+    <section>
+        <form>
+            <label>
+                Marca:
+                <input type="text" name="Marca" id="Marca" placeholder="Samsung"><br>
+            </label>            
+            <label>
+                Nome:
+                <input type="text" name="Nome" id="Nome" placeholder="A30" ><br>
+            </label>
+            <label>
+                Sistema:
+                <input type="text" name="Sistema" id="Sistema" placeholder="Android"><br>
+            </label>            
+            <label>
+                Memoria:
+                <input type="number" name="Memoria" id="Memoria" placeholder="64" ><br>
+            </label>
+            <div><br>
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </section>
+    <section>
+        <h1>Tabela de Produtos</h1>
+        <table border="2">
+            <tr>
+                <th>Marca</th>
+                <th>Nome</th>
+                <th>Sistema</th>
+                <th>Memoria</th>
+                <th>Açoes</th>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A20</td>
+                <td>Android</td>
+                <td>64Gb</td>
+                <td>
+                    <a href="">Apagar</a>
+                    <a href="">Editar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Iphone</td>
+                <td>12s</td>
+                <td>IOs</td>
+                <td>128Gb</td>
+                <td>
+                    <a href="">Apagar</a>
+                    <a href="">Editar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Xiaomi</td>
+                <td>PokoPhone</td>
+                <td>Mi</td>
+                <td>256Gb</td>
+                <td>
+                    <a href="">Apagar</a>
+                    <a href="">Editar</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+</main>
+</body>
+</html>
